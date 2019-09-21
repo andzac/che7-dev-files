@@ -6,7 +6,7 @@ metadata:
 components:
   - type: dockerimage
     alias: maven
-    image: centos/centos:7
+    image: alpine:3.9
     env:
       - name: JAVA_OPTS
         value: "-Duser.home=/home/user"
