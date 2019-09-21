@@ -4,8 +4,6 @@ apiVersion: 1.0.0
 metadata:
   generateName: java-web-vertx-
 components:
-  - type: chePlugin
-    id: redhat/java/latest
   - type: dockerimage
     alias: maven
     image: centos/centos:7
